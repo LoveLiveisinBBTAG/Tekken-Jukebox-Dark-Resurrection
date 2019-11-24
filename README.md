@@ -1,6 +1,11 @@
 # Tekken-Jukebox-Dark-Resurrection
 Program to play music while a certain stage is loaded in Tekken 7 by hooking into its memory.
 
+#IMPORTANT! 
+* For some reason, chrome has decided to give a warning for this program, saying it's not commonly downloaded. I have no idea how to fix this, and nothing in my program is malicious (although potentially the memory.dll library could be flagged?). Check my crappy source code if you are unsure.
+
+
+
 # Requirements
 * Windows Media Player
 * .NET Framework 4.6.1
