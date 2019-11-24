@@ -14,96 +14,41 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 {
     public partial class Form1 : Form
     {
-
-        int volume1 = 100;
-        int volume2 = 100;
-        int volume3 = 100;
-        int volume4 = 100;
-        int volume5 = 100;
-        int volume6 = 100;
-        int volume7 = 100;
-        int volume8 = 100;
-        int volume9 = 100;
-        int volume10 = 100;
-        int volume11 = 100;
-        int volume12 = 100;
-        int volume13 = 100;
-        int volume14 = 100;
-        int volume15 = 100;
-        int volume16 = 100;
-        int volume17 = 100;
-        int volume18 = 100;
-        int volume19 = 100;
-        int volume20 = 100;
-        int volume21 = 100;
-        int volume22 = 100;
-        int volume23 = 100;
-        int volume24 = 100;
-        int volume25 = 100;
-        int volume26 = 100;
-        int volume27 = 100;
-        int volume28 = 100;
+        
         int pID = 0;
 
         public Form1()
         {
             InitializeComponent();
-            volume1 = Properties.Settings.Default.Volume1;
-            numericUpDown1.Value = volume1;
-            volume2 = Properties.Settings.Default.Volume2;
-            numericUpDown2.Value = volume2;
-            volume3 = Properties.Settings.Default.Volume3;
-            numericUpDown3.Value = volume3;
-            volume4 = Properties.Settings.Default.Volume4;
-            numericUpDown4.Value = volume4;
-            volume5 = Properties.Settings.Default.Volume5;
-            numericUpDown5.Value = volume5;
-            volume6 = Properties.Settings.Default.Volume6;
-            numericUpDown6.Value = volume6;
-            volume7 = Properties.Settings.Default.Volume7;
-            numericUpDown7.Value = volume7;
-            volume8 = Properties.Settings.Default.Volume8;
-            numericUpDown8.Value = volume8;
-            volume9 = Properties.Settings.Default.Volume9;
-            numericUpDown9.Value = volume9;
-            volume10 = Properties.Settings.Default.Volume10;
-            numericUpDown10.Value = volume10;
-            volume11 = Properties.Settings.Default.Volume11;
-            numericUpDown11.Value = volume11;
-            volume12 = Properties.Settings.Default.Volume12;
-            numericUpDown12.Value = volume12;
-            volume13 = Properties.Settings.Default.Volume13;
-            numericUpDown13.Value = volume13;
-            volume14 = Properties.Settings.Default.Volume14;
-            numericUpDown26.Value = volume14;
-            volume15 = Properties.Settings.Default.Volume15;
-            numericUpDown25.Value = volume15;
-            volume16 = Properties.Settings.Default.Volume16;
-            numericUpDown24.Value = volume16;
-            volume17 = Properties.Settings.Default.Volume17;
-            numericUpDown23.Value = volume17;
-            volume18 = Properties.Settings.Default.Volume18;
-            numericUpDown22.Value = volume18;
-            volume19 = Properties.Settings.Default.Volume19;
-            numericUpDown21.Value = volume19;
-            volume20 = Properties.Settings.Default.Volume20;
-            numericUpDown20.Value = volume20;
-            volume21 = Properties.Settings.Default.Volume21;
-            numericUpDown19.Value = volume21;
-            volume22 = Properties.Settings.Default.Volume22;
-            numericUpDown18.Value = volume22;
-            volume23 = Properties.Settings.Default.Volume23;
-            numericUpDown17.Value = volume23;
-            volume24 = Properties.Settings.Default.Volume24;
-            numericUpDown16.Value = volume24;
-            volume25 = Properties.Settings.Default.Volume25;
-            numericUpDown15.Value = volume25;
-            volume26 = Properties.Settings.Default.Volume26;
-            numericUpDown14.Value = volume26;
-            volume27 = Properties.Settings.Default.Volume27;
-            numericUpDown28.Value = volume27;
-            volume28 = Properties.Settings.Default.Volume28;
-            numericUpDown27.Value = volume28;
+
+            numericUpDown1.Value = Properties.Settings.Default.Volume1;
+            numericUpDown2.Value = Properties.Settings.Default.Volume2;
+            numericUpDown3.Value = Properties.Settings.Default.Volume3;
+            numericUpDown4.Value = Properties.Settings.Default.Volume4;
+            numericUpDown5.Value = Properties.Settings.Default.Volume5;
+            numericUpDown6.Value = Properties.Settings.Default.Volume6;
+            numericUpDown7.Value = Properties.Settings.Default.Volume7;
+            numericUpDown8.Value = Properties.Settings.Default.Volume8;
+            numericUpDown9.Value = Properties.Settings.Default.Volume9;
+            numericUpDown10.Value = Properties.Settings.Default.Volume10;
+            numericUpDown11.Value = Properties.Settings.Default.Volume11;
+            numericUpDown12.Value = Properties.Settings.Default.Volume12;
+            numericUpDown13.Value = Properties.Settings.Default.Volume13;
+            numericUpDown26.Value = Properties.Settings.Default.Volume14;
+            numericUpDown25.Value = Properties.Settings.Default.Volume15;
+            numericUpDown24.Value = Properties.Settings.Default.Volume16;
+            numericUpDown23.Value = Properties.Settings.Default.Volume17;
+            numericUpDown22.Value = Properties.Settings.Default.Volume18;
+            numericUpDown21.Value = Properties.Settings.Default.Volume19;
+            numericUpDown20.Value = Properties.Settings.Default.Volume20;
+            numericUpDown19.Value = Properties.Settings.Default.Volume21;
+            numericUpDown18.Value = Properties.Settings.Default.Volume22;
+            numericUpDown17.Value = Properties.Settings.Default.Volume23;
+            numericUpDown16.Value = Properties.Settings.Default.Volume24;
+            numericUpDown15.Value = Properties.Settings.Default.Volume25;
+            numericUpDown14.Value = Properties.Settings.Default.Volume26;
+            numericUpDown28.Value = Properties.Settings.Default.Volume27;
+            numericUpDown27.Value = Properties.Settings.Default.Volume28;
 
 
 
@@ -214,7 +159,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-            volume1 = Convert.ToInt32(numericUpDown1.Value);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -233,7 +177,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                 */
                 player.URL = label1.Text;
                 player.controls.play();
-                player.settings.volume = volume1;
+                player.settings.volume = Convert.ToInt32(numericUpDown1.Value);
                 pv = true;
 
                 button1.Text = "Stop";
@@ -261,197 +205,140 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             {
                 player.controls.stop();
                 mMusic = false;
+            }
+            if (start && currentStage == 0 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label1.Text != "File path not found")
+            {
+                WmpPlay(label1.Text, Convert.ToInt32(numericUpDown1.Value));
+                
+            }
+            if (start && currentStage == 1 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label6.Text != "File path not found")
+            {
+                WmpPlay(label6.Text, Convert.ToInt32(numericUpDown2.Value));             
+            }
+            if (start && currentStage == 2 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label8.Text != "File path not found")
+            {
+                WmpPlay(label8.Text, Convert.ToInt32(numericUpDown3.Value));               
+            }
+            if (start && currentStage == 3 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label10.Text != "File path not found")
+            {
+                WmpPlay(label10.Text, Convert.ToInt32(numericUpDown4.Value));            
+            }
+            if (start && currentStage == 4 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label12.Text != "File path not found")
+            {
+                WmpPlay(label12.Text, Convert.ToInt32(numericUpDown5.Value));
+            }
+            if (start && currentStage == 5 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label14.Text != "File path not found")
+            {
+                WmpPlay(label14.Text, Convert.ToInt32(numericUpDown6.Value));
 
             }
-            if (start && currentStage == 0 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label1.Text == openFileDialog1.FileName)
+            if (start && currentStage == 6 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label16.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label1.Text;
-                player.controls.play();
-                player.settings.volume = volume1;
+                WmpPlay(label16.Text, Convert.ToInt32(numericUpDown7.Value));
+
             }
-            if (start && currentStage == 1 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label6.Text == openFileDialog2.FileName)
+            if (start && currentStage == 7 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label18.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label6.Text;
-                player.controls.play();
-                player.settings.volume = volume2;
+                WmpPlay(label18.Text, Convert.ToInt32(numericUpDown8.Value));
+
             }
-            if (start && currentStage == 2 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label8.Text == openFileDialog3.FileName)
+            if (start && currentStage == 8 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label20.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label8.Text;
-                player.controls.play();
-                player.settings.volume = volume3;
+                WmpPlay(label20.Text, Convert.ToInt32(numericUpDown9.Value));
             }
-            if (start && currentStage == 3 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label10.Text == openFileDialog4.FileName)
+            if (start && currentStage == 9 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label22.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label10.Text;
-                player.controls.play();
-                player.settings.volume = volume4;
+                WmpPlay(label22.Text, Convert.ToInt32(numericUpDown10.Value));
+
             }
-            if (start && currentStage == 4 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label12.Text == openFileDialog5.FileName)
+            if (start && currentStage == 30 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label24.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label12.Text;
-                player.controls.play();
-                player.settings.volume = volume5;
+                WmpPlay(label24.Text, Convert.ToInt32(numericUpDown11.Value));
             }
-            if (start && currentStage == 5 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label14.Text == openFileDialog6.FileName)
+            if (start && currentStage == 31 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label26.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label14.Text;
-                player.controls.play();
-                player.settings.volume = volume6;
+                WmpPlay(label26.Text, Convert.ToInt32(numericUpDown12.Value));
+
             }
-            if (start && currentStage == 6 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label16.Text == openFileDialog7.FileName)
+            if (start && currentStage == 32 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label28.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label16.Text;
-                player.controls.play();
-                player.settings.volume = volume7;
+                WmpPlay(label28.Text, Convert.ToInt32(numericUpDown13.Value));
+
             }
-            if (start && currentStage == 7 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label18.Text == openFileDialog8.FileName)
+            if (start && currentStage == 33 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label54.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label18.Text;
-                player.controls.play();
-                player.settings.volume = volume8;
+                WmpPlay(label54.Text, Convert.ToInt32(numericUpDown26.Value));
+
             }
-            if (start && currentStage == 8 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label20.Text == openFileDialog9.FileName)
+            if (start && currentStage == 35 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label52.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label20.Text;
-                player.controls.play();
-                player.settings.volume = volume9;
+                WmpPlay(label52.Text, Convert.ToInt32(numericUpDown25.Value));
+
             }
-            if (start && currentStage == 9 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label22.Text == openFileDialog10.FileName)
+            if (start && currentStage == 36 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label50.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label22.Text;
-                player.controls.play();
-                player.settings.volume = volume10;
+                WmpPlay(label50.Text, Convert.ToInt32(numericUpDown24.Value));
+
             }
-            if (start && currentStage == 30 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label24.Text == openFileDialog11.FileName)
+            if (start && currentStage == 37 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label48.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label24.Text;
-                player.controls.play();
-                player.settings.volume = volume11;
+                WmpPlay(label48.Text, Convert.ToInt32(numericUpDown23.Value));
+
             }
-            if (start && currentStage == 31 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label26.Text == openFileDialog12.FileName)
+            if (start && currentStage == 39 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label46.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label26.Text;
-                player.controls.play();
-                player.settings.volume = volume12;
+                WmpPlay(label46.Text, Convert.ToInt32(numericUpDown22.Value));
+
             }
-            if (start && currentStage == 32 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label28.Text == openFileDialog13.FileName)
+            if (start && currentStage == 40 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label44.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label28.Text;
-                player.controls.play();
-                player.settings.volume = volume13;
+                WmpPlay(label44.Text, Convert.ToInt32(numericUpDown21.Value));
+
             }
-            if (start && currentStage == 33 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label54.Text == openFileDialog14.FileName)
+            if (start && currentStage == 41 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label42.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label54.Text;
-                player.controls.play();
-                player.settings.volume = volume14;
+                WmpPlay(label42.Text, Convert.ToInt32(numericUpDown20.Value));
+
             }
-            if (start && currentStage == 35 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label52.Text == openFileDialog15.FileName)
+            if (start && currentStage == 51 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label40.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label52.Text;
-                player.controls.play();
-                player.settings.volume = volume15;
+                WmpPlay(label40.Text, Convert.ToInt32(numericUpDown19.Value));
+
             }
-            if (start && currentStage == 36 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label50.Text == openFileDialog16.FileName)
+            if (start && currentStage == 52 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label38.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label50.Text;
-                player.controls.play();
-                player.settings.volume = volume16;
+                WmpPlay(label38.Text, Convert.ToInt32(numericUpDown18.Value));
+
             }
-            if (start && currentStage == 37 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label48.Text == openFileDialog17.FileName)
+            if (start && currentStage == 53 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label36.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label48.Text;
-                player.controls.play();
-                player.settings.volume = volume17;
+                WmpPlay(label36.Text, Convert.ToInt32(numericUpDown17.Value));
+
             }
-            if (start && currentStage == 39 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label46.Text == openFileDialog18.FileName)
+            if (start && currentStage == 54 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label34.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label46.Text;
-                player.controls.play();
-                player.settings.volume = volume18;
+                WmpPlay(label34.Text, Convert.ToInt32(numericUpDown16.Value));
+
             }
-            if (start && currentStage == 40 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label44.Text == openFileDialog19.FileName)
+            if (start && currentStage == 55 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label32.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label44.Text;
-                player.controls.play();
-                player.settings.volume = volume19;
+                WmpPlay(label32.Text, Convert.ToInt32(numericUpDown15.Value));
             }
-            if (start && currentStage == 41 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label42.Text == openFileDialog20.FileName)
+            if (start && currentStage == 56 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label30.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label42.Text;
-                player.controls.play();
-                player.settings.volume = volume20;
+                WmpPlay(label32.Text, Convert.ToInt32(numericUpDown15.Value));
             }
-            if (start && currentStage == 51 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label40.Text == openFileDialog21.FileName)
+            if (start && currentStage == 42 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label56.Text != "File path not found")
             {
-                player.controls.stop();
-                player.URL = label40.Text;
-                player.controls.play();
-                player.settings.volume = volume21;
-            }
-            if (start && currentStage == 52 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label38.Text == openFileDialog22.FileName)
-            {
-                player.controls.stop();
-                player.URL = label38.Text;
-                player.controls.play();
-                player.settings.volume = volume22;
-            }
-            if (start && currentStage == 53 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label36.Text == openFileDialog23.FileName)
-            {
-                player.controls.stop();
-                player.URL = label36.Text;
-                player.controls.play();
-                player.settings.volume = volume23;
-            }
-            if (start && currentStage == 54 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label34.Text == openFileDialog24.FileName)
-            {
-                player.controls.stop();
-                player.URL = label34.Text;
-                player.controls.play();
-                player.settings.volume = volume24;
-            }
-            if (start && currentStage == 55 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label32.Text == openFileDialog25.FileName)
-            {
-                player.controls.stop();
-                player.URL = label32.Text;
-                player.controls.play();
-                player.settings.volume = volume25;
-            }
-            if (start && currentStage == 42 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label56.Text == openFileDialog28.FileName)
-            {
-                player.controls.stop();
-                player.URL = label56.Text;
-                player.controls.play();
-                player.settings.volume = volume28;
+                WmpPlay(label56.Text, Convert.ToInt32(numericUpDown27.Value));
+
             }
          
             if(start && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara == 0 && pID != 0)
             {
                 mMusic = true;
-                player.URL = label58.Text;
-                player.controls.play();
-                player.settings.volume = volume27;
+                WmpPlay(label58.Text, Convert.ToInt32(numericUpDown28.Value));
+
             }
         }
 
@@ -476,16 +363,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog2.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label6.Text;
-                player.settings.volume = volume2;
-                player.controls.play();
-                
+                WmpPlay(label6.Text, Convert.ToInt32(numericUpDown2.Value));                               
                 pv = true;
-
                 button3.Text = "Stop";
             }
         }
@@ -498,13 +377,10 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void label6_Click(object sender, EventArgs e)
         {
-
         }
 
         private void numericUpDown2_ValueChanged(object sender, EventArgs e)
         {
-            volume2 = Convert.ToInt32(numericUpDown2.Value);
-
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -517,16 +393,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog3.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label8.Text;
-                player.settings.volume = volume3;
-                player.controls.play();
-
+                WmpPlay(label8.Text, Convert.ToInt32(numericUpDown3.Value));
                 pv = true;
-
                 button5.Text = "Stop";
             }
         }
@@ -549,14 +417,11 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown3_ValueChanged(object sender, EventArgs e)
         {
-            volume3 = Convert.ToInt32(numericUpDown3.Value);
-
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             openFileDialog4.ShowDialog();
-
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -569,16 +434,9 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog4.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label10.Text;
-                player.settings.volume = volume4;
+                WmpPlay(label10.Text, Convert.ToInt32(numericUpDown4.Value));
                 player.controls.play();
-
                 pv = true;
-
                 button7.Text = "Stop";
             }
         }
@@ -586,12 +444,10 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
         private void openFileDialog4_FileOk(object sender, CancelEventArgs e)
         {
             label10.Text = openFileDialog4.FileName;
-
         }
 
         private void numericUpDown4_ValueChanged(object sender, EventArgs e)
         {
-            volume4 = Convert.ToInt32(numericUpDown4.Value);
 
         }
 
@@ -605,16 +461,9 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog5.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label12.Text;
-                player.settings.volume = volume5;
+                WmpPlay(label12.Text, Convert.ToInt32(numericUpDown5.Value));
                 player.controls.play();
-
                 pv = true;
-
                 button9.Text = "Stop";
             }
         }
@@ -622,19 +471,15 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
         private void button10_Click(object sender, EventArgs e)
         {
             openFileDialog5.ShowDialog();
-
         }
 
         private void numericUpDown5_ValueChanged(object sender, EventArgs e)
         {
-            volume5 = Convert.ToInt32(numericUpDown5.Value);
-
         }
 
         private void openFileDialog5_FileOk(object sender, CancelEventArgs e)
         {
             label12.Text = openFileDialog5.FileName;
-
         }
 
         private void openFileDialog6_FileOk(object sender, CancelEventArgs e)
@@ -653,16 +498,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog6.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label14.Text;
-                player.settings.volume = volume6;
-                player.controls.play();
-
+                WmpPlay(label14.Text, Convert.ToInt32(numericUpDown6.Value));
                 pv = true;
-
                 button11.Text = "Stop";
             }
         }
@@ -674,7 +511,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown6_ValueChanged(object sender, EventArgs e)
         {
-            volume6 = Convert.ToInt32(numericUpDown6.Value);
         }
 
         private void label12_Click(object sender, EventArgs e)
@@ -692,16 +528,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog7.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label16.Text;
-                player.settings.volume = volume7;
-                player.controls.play();
-
+                WmpPlay(label16.Text, Convert.ToInt32(numericUpDown7.Value));
                 pv = true;
-
                 button13.Text = "Stop";
             }
         }
@@ -713,8 +541,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown7_ValueChanged(object sender, EventArgs e)
         {
-            volume7 = Convert.ToInt32(numericUpDown7.Value);
-
         }
 
         private void textBox7_TextChanged(object sender, EventArgs e)
@@ -743,16 +569,9 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog8.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label18.Text;
-                player.settings.volume = volume8;
+                WmpPlay(label18.Text, Convert.ToInt32(numericUpDown8.Value));
                 player.controls.play();
-
                 pv = true;
-
                 button15.Text = "Stop";
             }
         }
@@ -765,7 +584,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown8_ValueChanged(object sender, EventArgs e)
         {
-            volume8 = Convert.ToInt32(numericUpDown8.Value);
 
         }
 
@@ -785,14 +603,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog9.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label20.Text;
-                player.settings.volume = volume9;
-                player.controls.play();
-
+                WmpPlay(label20.Text, Convert.ToInt32(numericUpDown9.Value));
                 pv = true;
 
                 button17.Text = "Stop";
@@ -813,7 +624,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown9_ValueChanged(object sender, EventArgs e)
         {
-            volume9 = Convert.ToInt32(numericUpDown9.Value);
 
         }
 
@@ -827,16 +637,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog10.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label22.Text;
-                player.settings.volume = volume10;
-                player.controls.play();
-
+                WmpPlay(label22.Text, Convert.ToInt32(numericUpDown10.Value));
                 pv = true;
-
                 button19.Text = "Stop";
             }
         }
@@ -848,7 +650,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown10_ValueChanged(object sender, EventArgs e)
         {
-            volume10 = Convert.ToInt32(numericUpDown10.Value);
 
         }
 
@@ -866,9 +667,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = label24.Text;
-                player.settings.volume = volume11;
-                player.controls.play();
+                WmpPlay(label24.Text, Convert.ToInt32(numericUpDown11.Value));
 
                 pv = true;
 
@@ -896,7 +695,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown11_ValueChanged(object sender, EventArgs e)
         {
-            volume11 = Convert.ToInt32(numericUpDown11.Value);
 
         }
 
@@ -910,13 +708,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog12.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label26.Text;
-                player.settings.volume = volume12;
-                player.controls.play();
+                WmpPlay(label26.Text, Convert.ToInt32(numericUpDown12.Value));
 
                 pv = true;
 
@@ -936,7 +728,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown12_ValueChanged(object sender, EventArgs e)
         {
-            volume12 = Convert.ToInt32(numericUpDown12.Value);
 
         }
 
@@ -950,13 +741,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog13.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label28.Text;
-                player.settings.volume = volume13;
-                player.controls.play();
+                WmpPlay(label28.Text, Convert.ToInt32(numericUpDown13.Value));
+
 
                 pv = true;
 
@@ -971,7 +757,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown13_ValueChanged(object sender, EventArgs e)
         {
-            volume13 = Convert.ToInt32(numericUpDown13.Value);
 
         }
 
@@ -990,13 +775,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog14.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label54.Text;
-                player.settings.volume = volume14;
-                player.controls.play();
+                WmpPlay(label54.Text, Convert.ToInt32(numericUpDown26.Value));
+
 
                 pv = true;
 
@@ -1016,7 +796,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown26_ValueChanged(object sender, EventArgs e)
         {
-            volume14 = Convert.ToInt32(numericUpDown26.Value);
         }
 
         private void button50_Click(object sender, EventArgs e)
@@ -1035,13 +814,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog15.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label52.Text;
-                player.settings.volume = volume15;
-                player.controls.play();
+                WmpPlay(label52.Text, Convert.ToInt32(numericUpDown25.Value));
+
 
                 pv = true;
 
@@ -1051,7 +825,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown25_ValueChanged(object sender, EventArgs e)
         {
-            volume15 = Convert.ToInt32(numericUpDown25.Value);
 
         }
 
@@ -1071,13 +844,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog16.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label50.Text;
-                player.settings.volume = volume16;
-                player.controls.play();
+                WmpPlay(label50.Text, Convert.ToInt32(numericUpDown24.Value));
+
 
                 pv = true;
 
@@ -1093,7 +861,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown24_ValueChanged(object sender, EventArgs e)
         {
-            volume16 = Convert.ToInt32(numericUpDown24.Value);
         }
 
         private void openFileDialog16_FileOk(object sender, CancelEventArgs e)
@@ -1112,13 +879,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog17.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label48.Text;
-                player.settings.volume = volume17;
-                player.controls.play();
+                WmpPlay(label48.Text, Convert.ToInt32(numericUpDown23.Value));
 
                 pv = true;
 
@@ -1140,7 +901,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown23_ValueChanged(object sender, EventArgs e)
         {
-            volume17 = Convert.ToInt32(numericUpDown23.Value);
 
         }
 
@@ -1154,13 +914,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog18.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label46.Text;
-                player.settings.volume = volume18;
-                player.controls.play();
+                WmpPlay(label46.Text, Convert.ToInt32(numericUpDown22.Value));
+
 
                 pv = true;
 
@@ -1183,7 +938,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown22_ValueChanged(object sender, EventArgs e)
         {
-            volume18 = Convert.ToInt32(numericUpDown22.Value);
 
         }
 
@@ -1197,13 +951,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog19.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label44.Text;
-                player.settings.volume = volume19;
-                player.controls.play();
+                WmpPlay(label44.Text, Convert.ToInt32(numericUpDown21.Value));
 
                 pv = true;
 
@@ -1225,7 +973,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown21_ValueChanged(object sender, EventArgs e)
         {
-            volume19 = Convert.ToInt32(numericUpDown21.Value);
 
         }
 
@@ -1239,13 +986,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog20.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label42.Text;
-                player.settings.volume = volume20;
-                player.controls.play();
+                WmpPlay(label42.Text, Convert.ToInt32(numericUpDown20.Value));
+
 
                 pv = true;
 
@@ -1267,7 +1009,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown20_ValueChanged(object sender, EventArgs e)
         {
-            volume20 = Convert.ToInt32(numericUpDown20.Value);
 
         }
 
@@ -1281,13 +1022,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog21.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label40.Text;
-                player.settings.volume = volume21;
-                player.controls.play();
+                WmpPlay(label40.Text, Convert.ToInt32(numericUpDown19.Value));
+
 
                 pv = true;
 
@@ -1309,7 +1045,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown19_ValueChanged(object sender, EventArgs e)
         {
-            volume21 = Convert.ToInt32(numericUpDown19.Value);
 
         }
 
@@ -1323,13 +1058,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog22.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label38.Text;
-                player.settings.volume = volume22;
-                player.controls.play();
+                WmpPlay(label38.Text, Convert.ToInt32(numericUpDown18.Value));
 
                 pv = true;
 
@@ -1345,7 +1074,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown18_ValueChanged(object sender, EventArgs e)
         {
-            volume22 = Convert.ToInt32(numericUpDown18.Value);
 
         }
 
@@ -1365,13 +1093,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog23.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label36.Text;
-                player.settings.volume = volume23;
-                player.controls.play();
+                WmpPlay(label36.Text, Convert.ToInt32(numericUpDown17.Value));
+
 
                 pv = true;
 
@@ -1387,7 +1110,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown17_ValueChanged(object sender, EventArgs e)
         {
-            volume23 = Convert.ToInt32(numericUpDown17.Value);
 
         }
 
@@ -1407,13 +1129,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog24.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label34.Text;
-                player.settings.volume = volume24;
-                player.controls.play();
+                WmpPlay(label34.Text, Convert.ToInt32(numericUpDown16.Value));
 
                 pv = true;
 
@@ -1429,7 +1145,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown16_ValueChanged(object sender, EventArgs e)
         {
-            volume24 = Convert.ToInt32(numericUpDown16.Value);
 
         }
 
@@ -1449,13 +1164,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog25.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label32.Text;
-                player.settings.volume = volume25;
-                player.controls.play();
+                WmpPlay(label32.Text, Convert.ToInt32(numericUpDown15.Value));
+
 
                 pv = true;
 
@@ -1477,7 +1187,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown15_ValueChanged(object sender, EventArgs e)
         {
-            volume25 = Convert.ToInt32(numericUpDown15.Value);
 
         }
 
@@ -1491,13 +1200,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog26.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label30.Text;
-                player.settings.volume = volume26;
-                player.controls.play();
+                WmpPlay(label30.Text, Convert.ToInt32(numericUpDown14.Value));
+
 
                 pv = true;
 
@@ -1519,7 +1223,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown14_ValueChanged(object sender, EventArgs e)
         {
-            volume26 = Convert.ToInt32(numericUpDown14.Value);
 
         }
 
@@ -1533,13 +1236,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog28.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label56.Text;
-                player.settings.volume = volume28;
-                player.controls.play();
+                WmpPlay(label56.Text, Convert.ToInt32(numericUpDown27.Value));
+
 
                 pv = true;
 
@@ -1561,7 +1259,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown27_ValueChanged(object sender, EventArgs e)
         {
-            volume28 = Convert.ToInt32(numericUpDown27.Value);
 
         }
 
@@ -1575,13 +1272,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
             else if (openFileDialog27.FileName != "")
             {
-                /* player.URL = openFileDialog1.FileName;
-                 player.settings.volume = volume1;
-                 player.controls.play();
-                 */
-                player.URL = label58.Text;
-                player.settings.volume = volume27;
-                player.controls.play();
+                WmpPlay(label58.Text, Convert.ToInt32(numericUpDown28.Value));
+
 
                 pv = true;
 
@@ -1597,8 +1289,6 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
 
         private void numericUpDown28_ValueChanged(object sender, EventArgs e)
         {
-            volume27 = Convert.ToInt32(numericUpDown28.Value);
-
         }
 
         private void openFileDialog27_FileOk(object sender, CancelEventArgs e)
@@ -1622,36 +1312,46 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             }
         }
 
+        void WmpPlay(string u, int v)
+        {
+
+            player.controls.stop();
+            player.close();
+            player.URL = u;
+            player.controls.play();
+            player.settings.volume = v;
+        }
+
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Properties.Settings.Default.Volume1 = volume1;
-            Properties.Settings.Default.Volume2 = volume2;
-            Properties.Settings.Default.Volume3 = volume3;
-            Properties.Settings.Default.Volume4 = volume4;
-            Properties.Settings.Default.Volume5 = volume5;
-            Properties.Settings.Default.Volume6 = volume6;
-            Properties.Settings.Default.Volume7 = volume7;
-            Properties.Settings.Default.Volume8 = volume8;
-            Properties.Settings.Default.Volume9 = volume9;
-            Properties.Settings.Default.Volume10 = volume10;
-            Properties.Settings.Default.Volume11 = volume11;
-            Properties.Settings.Default.Volume12 = volume12;
-            Properties.Settings.Default.Volume13 = volume13;
-            Properties.Settings.Default.Volume14 = volume14;
-            Properties.Settings.Default.Volume15 = volume15;
-            Properties.Settings.Default.Volume16 = volume16;
-            Properties.Settings.Default.Volume17 = volume17;
-            Properties.Settings.Default.Volume18 = volume18;
-            Properties.Settings.Default.Volume19 = volume19;
-            Properties.Settings.Default.Volume20 = volume20;
-            Properties.Settings.Default.Volume21 = volume21;
-            Properties.Settings.Default.Volume22 = volume22;
-            Properties.Settings.Default.Volume23 = volume23;
-            Properties.Settings.Default.Volume24 = volume24;
-            Properties.Settings.Default.Volume25 = volume25;
-            Properties.Settings.Default.Volume26 = volume26;
-            Properties.Settings.Default.Volume27 = volume27;
-            Properties.Settings.Default.Volume28 = volume28;
+            Properties.Settings.Default.Volume1 = Convert.ToInt32(numericUpDown1.Value);
+            Properties.Settings.Default.Volume2 = Convert.ToInt32(numericUpDown2.Value);
+            Properties.Settings.Default.Volume3 = Convert.ToInt32(numericUpDown3.Value);
+            Properties.Settings.Default.Volume4 = Convert.ToInt32(numericUpDown4.Value);
+            Properties.Settings.Default.Volume5 = Convert.ToInt32(numericUpDown5.Value);
+            Properties.Settings.Default.Volume6 = Convert.ToInt32(numericUpDown6.Value);
+            Properties.Settings.Default.Volume7 = Convert.ToInt32(numericUpDown7.Value);
+            Properties.Settings.Default.Volume8 = Convert.ToInt32(numericUpDown8.Value);
+            Properties.Settings.Default.Volume9 = Convert.ToInt32(numericUpDown9.Value);
+            Properties.Settings.Default.Volume10 = Convert.ToInt32(numericUpDown10.Value);
+            Properties.Settings.Default.Volume11 = Convert.ToInt32(numericUpDown11.Value);
+            Properties.Settings.Default.Volume12 = Convert.ToInt32(numericUpDown12.Value);
+            Properties.Settings.Default.Volume13 = Convert.ToInt32(numericUpDown13.Value);
+            Properties.Settings.Default.Volume14 = Convert.ToInt32(numericUpDown26.Value);
+            Properties.Settings.Default.Volume15 = Convert.ToInt32(numericUpDown25.Value);
+            Properties.Settings.Default.Volume16 = Convert.ToInt32(numericUpDown24.Value);
+            Properties.Settings.Default.Volume17 = Convert.ToInt32(numericUpDown23.Value);
+            Properties.Settings.Default.Volume18 = Convert.ToInt32(numericUpDown22.Value);
+            Properties.Settings.Default.Volume19 = Convert.ToInt32(numericUpDown21.Value);
+            Properties.Settings.Default.Volume20 = Convert.ToInt32(numericUpDown20.Value);
+            Properties.Settings.Default.Volume21 = Convert.ToInt32(numericUpDown19.Value);
+            Properties.Settings.Default.Volume22 = Convert.ToInt32(numericUpDown18.Value);
+            Properties.Settings.Default.Volume23 = Convert.ToInt32(numericUpDown17.Value);
+            Properties.Settings.Default.Volume24 = Convert.ToInt32(numericUpDown16.Value);
+            Properties.Settings.Default.Volume25 = Convert.ToInt32(numericUpDown15.Value);
+            Properties.Settings.Default.Volume26 = Convert.ToInt32(numericUpDown14.Value);
+            Properties.Settings.Default.Volume27 = Convert.ToInt32(numericUpDown28.Value);
+            Properties.Settings.Default.Volume28 = Convert.ToInt32(numericUpDown27.Value);
             Properties.Settings.Default.Label1 = label1.Text;
             Properties.Settings.Default.Label6 = label6.Text;
             Properties.Settings.Default.Label8 = label8.Text;
@@ -1680,8 +1380,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             Properties.Settings.Default.Label54 = label54.Text;
             Properties.Settings.Default.Label56 = label56.Text;
             Properties.Settings.Default.Label58 = label58.Text;
-
-
+            
+    
 
 
             Properties.Settings.Default.Save();
@@ -1696,6 +1396,11 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
         private void button58_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.Save();
+
+        }
+
+        private void numericUpDown16_ValueChanged_1(object sender, EventArgs e)
+        {
 
         }
     }

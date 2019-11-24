@@ -365,6 +365,7 @@
             // 
             // timer1
             // 
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // textBox2
@@ -1486,6 +1487,7 @@
             0,
             0,
             0});
+            this.numericUpDown16.ValueChanged += new System.EventHandler(this.numericUpDown16_ValueChanged_1);
             // 
             // button31
             // 
