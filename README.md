@@ -14,7 +14,7 @@ Program to play music while a certain stage is loaded in Tekken 7 by hooking int
 # Instructions
 * Launch Tekken 7, navigate to Options, Sound Options, and turn down the BGM Volume slider all the way down
 * Run Tekken Jukebox Dark Resurrection.exe
-* Click browse and set the desired .mp3 file for each stage
+* Click browse and set the desired audio file for each stage
 * Set the desired volume, and use the preview button to ensure it is at the correct volume
 * Press Start Jukebox
 
