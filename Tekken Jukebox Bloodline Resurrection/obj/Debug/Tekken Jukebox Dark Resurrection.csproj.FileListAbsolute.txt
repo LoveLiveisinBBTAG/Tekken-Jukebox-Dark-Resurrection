@@ -13,5 +13,3 @@ F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tek
 F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken_Jukebox_Bloodline_Resurrection.Properties.Resources.resources
 F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.exe
 F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.pdb
-F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.TrustInfo.xml
-F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.exe.manifest

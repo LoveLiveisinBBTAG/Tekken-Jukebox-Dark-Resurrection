@@ -231,7 +231,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                 player.settings.volume = volume1;
                 player.controls.play();
                 */
-                player.URL = openFileDialog1.FileName;
+                player.URL = label1.Text;
                 player.controls.play();
                 player.settings.volume = volume1;
                 pv = true;
@@ -480,7 +480,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog2.FileName;
+                player.URL = label6.Text;
                 player.settings.volume = volume2;
                 player.controls.play();
                 
@@ -521,7 +521,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog3.FileName;
+                player.URL = label8.Text;
                 player.settings.volume = volume3;
                 player.controls.play();
 
@@ -573,7 +573,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog4.FileName;
+                player.URL = label10.Text;
                 player.settings.volume = volume4;
                 player.controls.play();
 
@@ -609,7 +609,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog5.FileName;
+                player.URL = label12.Text;
                 player.settings.volume = volume5;
                 player.controls.play();
 
@@ -657,7 +657,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog6.FileName;
+                player.URL = label14.Text;
                 player.settings.volume = volume6;
                 player.controls.play();
 
@@ -696,7 +696,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog7.FileName;
+                player.URL = label16.Text;
                 player.settings.volume = volume7;
                 player.controls.play();
 
@@ -747,7 +747,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog8.FileName;
+                player.URL = label18.Text;
                 player.settings.volume = volume8;
                 player.controls.play();
 
@@ -789,7 +789,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog9.FileName;
+                player.URL = label20.Text;
                 player.settings.volume = volume9;
                 player.controls.play();
 
@@ -831,7 +831,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog10.FileName;
+                player.URL = label22.Text;
                 player.settings.volume = volume10;
                 player.controls.play();
 
@@ -866,7 +866,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog11.FileName;
+                player.URL = label24.Text;
                 player.settings.volume = volume11;
                 player.controls.play();
 
@@ -914,7 +914,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog12.FileName;
+                player.URL = label26.Text;
                 player.settings.volume = volume12;
                 player.controls.play();
 
@@ -954,7 +954,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog13.FileName;
+                player.URL = label28.Text;
                 player.settings.volume = volume13;
                 player.controls.play();
 
@@ -994,7 +994,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog14.FileName;
+                player.URL = label54.Text;
                 player.settings.volume = volume14;
                 player.controls.play();
 
@@ -1039,7 +1039,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog15.FileName;
+                player.URL = label52.Text;
                 player.settings.volume = volume15;
                 player.controls.play();
 
@@ -1075,7 +1075,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog16.FileName;
+                player.URL = label50.Text;
                 player.settings.volume = volume16;
                 player.controls.play();
 
@@ -1116,7 +1116,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog17.FileName;
+                player.URL = label48.Text;
                 player.settings.volume = volume17;
                 player.controls.play();
 
@@ -1158,7 +1158,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog18.FileName;
+                player.URL = label46.Text;
                 player.settings.volume = volume18;
                 player.controls.play();
 
@@ -1201,7 +1201,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog19.FileName;
+                player.URL = label44.Text;
                 player.settings.volume = volume19;
                 player.controls.play();
 
@@ -1243,7 +1243,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog20.FileName;
+                player.URL = label42.Text;
                 player.settings.volume = volume20;
                 player.controls.play();
 
@@ -1285,7 +1285,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog21.FileName;
+                player.URL = label40.Text;
                 player.settings.volume = volume21;
                 player.controls.play();
 
@@ -1327,7 +1327,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog22.FileName;
+                player.URL = label38.Text;
                 player.settings.volume = volume22;
                 player.controls.play();
 
@@ -1369,7 +1369,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog23.FileName;
+                player.URL = label36.Text;
                 player.settings.volume = volume23;
                 player.controls.play();
 
@@ -1411,7 +1411,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog24.FileName;
+                player.URL = label34.Text;
                 player.settings.volume = volume24;
                 player.controls.play();
 
@@ -1453,7 +1453,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog25.FileName;
+                player.URL = label32.Text;
                 player.settings.volume = volume25;
                 player.controls.play();
 
@@ -1495,7 +1495,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog26.FileName;
+                player.URL = label30.Text;
                 player.settings.volume = volume26;
                 player.controls.play();
 
@@ -1537,7 +1537,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog28.FileName;
+                player.URL = label56.Text;
                 player.settings.volume = volume28;
                 player.controls.play();
 
@@ -1579,7 +1579,7 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
                  player.settings.volume = volume1;
                  player.controls.play();
                  */
-                player.URL = openFileDialog27.FileName;
+                player.URL = label58.Text;
                 player.settings.volume = volume27;
                 player.controls.play();
 

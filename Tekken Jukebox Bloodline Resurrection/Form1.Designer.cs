@@ -277,15 +277,14 @@
             // 
             // openFileDialog1
             // 
-            this.openFileDialog1.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog1.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoEllipsis = true;
             this.label1.AutoSize = true;
@@ -417,8 +416,8 @@
             // 
             // label6
             // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoEllipsis = true;
             this.label6.AutoSize = true;
@@ -444,9 +443,8 @@
             // 
             // openFileDialog2
             // 
-            this.openFileDialog2.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog2.FileName = "openFileDialog1";
-            this.openFileDialog2.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog2.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog2.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog2_FileOk);
             // 
             // textBox3
@@ -497,8 +495,8 @@
             // 
             // label8
             // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoEllipsis = true;
             this.label8.AutoSize = true;
@@ -524,9 +522,8 @@
             // 
             // openFileDialog3
             // 
-            this.openFileDialog3.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog3.FileName = "openFileDialog1";
-            this.openFileDialog3.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog3.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog3.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog3_FileOk);
             // 
             // textBox4
@@ -577,8 +574,8 @@
             // 
             // label10
             // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoEllipsis = true;
             this.label10.AutoSize = true;
@@ -603,9 +600,8 @@
             // 
             // openFileDialog4
             // 
-            this.openFileDialog4.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog4.FileName = "openFileDialog1";
-            this.openFileDialog4.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog4.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog4.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog4_FileOk);
             // 
             // textBox5
@@ -656,8 +652,8 @@
             // 
             // label12
             // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label12.AutoEllipsis = true;
             this.label12.AutoSize = true;
@@ -683,9 +679,8 @@
             // 
             // openFileDialog5
             // 
-            this.openFileDialog5.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog5.FileName = "openFileDialog1";
-            this.openFileDialog5.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog5.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog5.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog5_FileOk);
             // 
             // textBox6
@@ -736,8 +731,8 @@
             // 
             // label14
             // 
-            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label14.AutoEllipsis = true;
             this.label14.AutoSize = true;
@@ -762,9 +757,8 @@
             // 
             // openFileDialog6
             // 
-            this.openFileDialog6.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog6.FileName = "openFileDialog1";
-            this.openFileDialog6.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog6.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog6.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog6_FileOk);
             // 
             // textBox7
@@ -816,8 +810,8 @@
             // 
             // label16
             // 
-            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label16.AutoEllipsis = true;
             this.label16.AutoSize = true;
@@ -842,9 +836,8 @@
             // 
             // openFileDialog7
             // 
-            this.openFileDialog7.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog7.FileName = "openFileDialog1";
-            this.openFileDialog7.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog7.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog7.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog7_FileOk);
             // 
             // textBox8
@@ -895,8 +888,8 @@
             // 
             // label18
             // 
-            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label18.AutoEllipsis = true;
             this.label18.AutoSize = true;
@@ -921,9 +914,8 @@
             // 
             // openFileDialog8
             // 
-            this.openFileDialog8.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog8.FileName = "openFileDialog1";
-            this.openFileDialog8.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog8.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog8.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog8_FileOk);
             // 
             // textBox9
@@ -974,8 +966,8 @@
             // 
             // label20
             // 
-            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label20.AutoEllipsis = true;
             this.label20.AutoSize = true;
@@ -1000,9 +992,8 @@
             // 
             // openFileDialog9
             // 
-            this.openFileDialog9.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog9.FileName = "openFileDialog1";
-            this.openFileDialog9.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog9.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog9.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog9_FileOk);
             // 
             // textBox10
@@ -1053,8 +1044,8 @@
             // 
             // label22
             // 
-            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label22.AutoEllipsis = true;
             this.label22.AutoSize = true;
@@ -1079,9 +1070,8 @@
             // 
             // openFileDialog10
             // 
-            this.openFileDialog10.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog10.FileName = "openFileDialog1";
-            this.openFileDialog10.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog10.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog10.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog10_FileOk);
             // 
             // textBox11
@@ -1132,8 +1122,8 @@
             // 
             // label24
             // 
-            this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label24.AutoEllipsis = true;
             this.label24.AutoSize = true;
@@ -1158,9 +1148,8 @@
             // 
             // openFileDialog11
             // 
-            this.openFileDialog11.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog11.FileName = "openFileDialog1";
-            this.openFileDialog11.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog11.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog11.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog11_FileOk);
             // 
             // textBox12
@@ -1211,8 +1200,8 @@
             // 
             // label26
             // 
-            this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label26.AutoEllipsis = true;
             this.label26.AutoSize = true;
@@ -1237,9 +1226,8 @@
             // 
             // openFileDialog12
             // 
-            this.openFileDialog12.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog12.FileName = "openFileDialog1";
-            this.openFileDialog12.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog12.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog12.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog12_FileOk);
             // 
             // textBox13
@@ -1290,8 +1278,8 @@
             // 
             // label28
             // 
-            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label28.AutoEllipsis = true;
             this.label28.AutoSize = true;
@@ -1316,9 +1304,8 @@
             // 
             // openFileDialog13
             // 
-            this.openFileDialog13.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog13.FileName = "openFileDialog1";
-            this.openFileDialog13.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog13.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog13.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog13_FileOk);
             // 
             // textBox14
@@ -1369,8 +1356,8 @@
             // 
             // label30
             // 
-            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label30.AutoEllipsis = true;
             this.label30.AutoSize = true;
@@ -1441,8 +1428,8 @@
             // 
             // label32
             // 
-            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label32.AutoEllipsis = true;
             this.label32.AutoSize = true;
@@ -1512,8 +1499,8 @@
             // 
             // label34
             // 
-            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label34.AutoEllipsis = true;
             this.label34.AutoSize = true;
@@ -1584,8 +1571,8 @@
             // 
             // label36
             // 
-            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label36.AutoEllipsis = true;
             this.label36.AutoSize = true;
@@ -1656,8 +1643,8 @@
             // 
             // label38
             // 
-            this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label38.AutoEllipsis = true;
             this.label38.AutoSize = true;
@@ -1728,8 +1715,8 @@
             // 
             // label40
             // 
-            this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label40.AutoEllipsis = true;
             this.label40.AutoSize = true;
@@ -1800,8 +1787,8 @@
             // 
             // label42
             // 
-            this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label42.AutoEllipsis = true;
             this.label42.AutoSize = true;
@@ -1872,8 +1859,8 @@
             // 
             // label44
             // 
-            this.label44.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label44.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label44.AutoEllipsis = true;
             this.label44.AutoSize = true;
@@ -1944,8 +1931,8 @@
             // 
             // label46
             // 
-            this.label46.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label46.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label46.AutoEllipsis = true;
             this.label46.AutoSize = true;
@@ -2016,8 +2003,8 @@
             // 
             // label48
             // 
-            this.label48.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label48.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label48.AutoEllipsis = true;
             this.label48.AutoSize = true;
@@ -2088,8 +2075,8 @@
             // 
             // label50
             // 
-            this.label50.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label50.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label50.AutoEllipsis = true;
             this.label50.AutoSize = true;
@@ -2160,8 +2147,8 @@
             // 
             // label52
             // 
-            this.label52.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label52.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label52.AutoEllipsis = true;
             this.label52.AutoSize = true;
@@ -2231,8 +2218,8 @@
             // 
             // label54
             // 
-            this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label54.AutoEllipsis = true;
             this.label54.AutoSize = true;
@@ -2257,93 +2244,80 @@
             // 
             // openFileDialog14
             // 
-            this.openFileDialog14.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog14.FileName = "openFileDialog1";
-            this.openFileDialog14.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog14.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog14.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog14_FileOk);
             // 
             // openFileDialog15
             // 
-            this.openFileDialog15.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog15.FileName = "openFileDialog1";
-            this.openFileDialog15.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog15.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog15.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog15_FileOk);
             // 
             // openFileDialog16
             // 
-            this.openFileDialog16.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog16.FileName = "openFileDialog1";
-            this.openFileDialog16.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog16.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog16.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog16_FileOk);
             // 
             // openFileDialog17
             // 
-            this.openFileDialog17.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog17.FileName = "openFileDialog1";
-            this.openFileDialog17.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog17.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog17.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog17_FileOk);
             // 
             // openFileDialog18
             // 
-            this.openFileDialog18.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog18.FileName = "openFileDialog1";
-            this.openFileDialog18.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog18.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog18.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog18_FileOk);
             // 
             // openFileDialog19
             // 
-            this.openFileDialog19.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog19.FileName = "openFileDialog1";
-            this.openFileDialog19.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog19.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog19.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog19_FileOk);
             // 
             // openFileDialog20
             // 
-            this.openFileDialog20.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog20.FileName = "openFileDialog1";
-            this.openFileDialog20.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog20.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog20.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog20_FileOk);
             // 
             // openFileDialog21
             // 
-            this.openFileDialog21.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog21.FileName = "openFileDialog1";
-            this.openFileDialog21.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog21.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog21.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog21_FileOk);
             // 
             // openFileDialog22
             // 
-            this.openFileDialog22.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog22.FileName = "openFileDialog1";
-            this.openFileDialog22.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog22.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog22.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog22_FileOk);
             // 
             // openFileDialog23
             // 
-            this.openFileDialog23.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog23.FileName = "openFileDialog1";
-            this.openFileDialog23.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog23.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog23.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog23_FileOk);
             // 
             // openFileDialog24
             // 
-            this.openFileDialog24.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog24.FileName = "openFileDialog1";
-            this.openFileDialog24.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog24.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog24.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog24_FileOk);
             // 
             // openFileDialog25
             // 
-            this.openFileDialog25.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog25.FileName = "openFileDialog1";
-            this.openFileDialog25.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog25.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog25.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog25_FileOk);
             // 
             // openFileDialog26
             // 
-            this.openFileDialog26.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog26.FileName = "openFileDialog1";
-            this.openFileDialog26.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog26.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog26.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog26_FileOk);
             // 
             // textBox27
@@ -2394,8 +2368,8 @@
             // 
             // label56
             // 
-            this.label56.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label56.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label56.AutoEllipsis = true;
             this.label56.AutoSize = true;
@@ -2466,8 +2440,8 @@
             // 
             // label58
             // 
-            this.label58.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.label58.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label58.AutoEllipsis = true;
             this.label58.AutoSize = true;
@@ -2492,16 +2466,14 @@
             // 
             // openFileDialog27
             // 
-            this.openFileDialog27.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog27.FileName = "openFileDialog1";
-            this.openFileDialog27.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog27.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog27.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog27_FileOk);
             // 
             // openFileDialog28
             // 
-            this.openFileDialog28.DefaultExt = "mp3 files (*.mp3)|*.mp3";
             this.openFileDialog28.FileName = "openFileDialog1";
-            this.openFileDialog28.Filter = "mp3 files (*.mp3)|*.mp3";
+            this.openFileDialog28.Filter = "Audio files |*.mp3;*.flac;*.aac;*.m4a;*.midi;*.wav;*.mid";
             this.openFileDialog28.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog28_FileOk);
             // 
             // button57
