@@ -1,0 +1,174 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Tekken_Jukebox_Bloodline_Resurrection.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Volume1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume4" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume5" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume6" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume7" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume8" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume9" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume10" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume11" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume12" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume13" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume14" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume15" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume16" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume17" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume18" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume19" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume20" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume21" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume22" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume23" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume24" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume25" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume26" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume27" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Volume28" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Label58" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label56" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label30" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label32" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label34" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label36" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label38" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label40" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label42" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label44" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label46" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label48" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label50" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label52" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label54" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label28" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label26" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label22" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label24" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label20" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label18" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label16" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label14" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label12" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+    <Setting Name="Label1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">File path not found</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

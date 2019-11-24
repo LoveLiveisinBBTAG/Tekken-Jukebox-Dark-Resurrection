@@ -1,0 +1,15 @@
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\bin\Debug\Tekken Jukebox Bloodline Resurrection.exe.config
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\bin\Debug\Tekken Jukebox Bloodline Resurrection.exe
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\bin\Debug\Tekken Jukebox Bloodline Resurrection.pdb
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\bin\Debug\Memory.dll
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\bin\Debug\Memory.xml
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.csprojAssemblyReference.cache
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken_Jukebox_Bloodline_Resurrection.Form1.resources
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.csproj.GenerateResource.cache
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.csproj.CoreCompileInputs.cache
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.csproj.CopyComplete
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.exe
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.pdb
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Interop.WMPLib.dll
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken Jukebox Bloodline Resurrection.csproj.ResolveComReference.cache
+F:\[Elysium]Lucky.Star(BD.720p.AAC.DA)\Tekken Jukebox Bloodline Resurrection\Tekken Jukebox Bloodline Resurrection\obj\Debug\Tekken_Jukebox_Bloodline_Resurrection.Properties.Resources.resources
