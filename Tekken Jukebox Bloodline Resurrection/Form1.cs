@@ -173,6 +173,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button1.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button1.Text = "Preview";
                 pv = false;
             }
@@ -209,130 +211,130 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
         private void timer1_Tick(object sender, EventArgs e)
         {
             
-            if (start && currentStage == 0 && chara != 0 && inMatch && label1.Text != "File path not found" || start && currentRanked == 0 && chara != 0 && inMatch && player.URL != label1.Text )
+            if (start && currentStage == 0 && chara != 0 && inMatch && label1.Text != "File path not found" && player.URL != label1.Text  || start && currentRanked == 0 && chara != 0 && inMatch && player.URL != label1.Text )
             {
 
                 WmpPlay(label1.Text, Convert.ToInt32(numericUpDown1.Value));
                 
             }
-            if (start && currentStage == 1 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label6.Text != "File path not found" || start && currentRanked == 1 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label6.Text)
+            if (start && currentStage == 1 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label6.Text != "File path not found" && player.URL != label6.Text || start && currentRanked == 1 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label6.Text)
             {
                 WmpPlay(label6.Text, Convert.ToInt32(numericUpDown2.Value));             
             }
-            if (start && currentStage == 2 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label8.Text != "File path not found" || start && currentRanked == 2 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label8.Text)
+            if (start && currentStage == 2 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label8.Text != "File path not found" && player.URL != label8.Text || start && currentRanked == 2 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label8.Text)
             {
                 WmpPlay(label8.Text, Convert.ToInt32(numericUpDown3.Value));               
             }
-            if (start && currentStage == 3 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label10.Text != "File path not found" || start && currentRanked == 3 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label10.Text)
+            if (start && currentStage == 3 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label10.Text != "File path not found" && player.URL != label10.Text || start && currentRanked == 3 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label10.Text)
             {
                 WmpPlay(label10.Text, Convert.ToInt32(numericUpDown4.Value));            
             }
-            if (start && currentStage == 4 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label12.Text != "File path not found" || start && currentRanked == 4 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label12.Text)
+            if (start && currentStage == 4 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label12.Text != "File path not found" && player.URL != label12.Text || start && currentRanked == 4 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label12.Text)
             {
                 WmpPlay(label12.Text, Convert.ToInt32(numericUpDown5.Value));
             }
-            if (start && currentStage == 5 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label14.Text != "File path not found" || start && currentRanked == 5 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label14.Text)
+            if (start && currentStage == 5 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label14.Text != "File path not found" && player.URL != label14.Text || start && currentRanked == 5 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label14.Text)
             {
                 WmpPlay(label14.Text, Convert.ToInt32(numericUpDown6.Value));
 
             }
-            if (start && currentStage == 6 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label16.Text != "File path not found" || start && currentRanked == 6 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label16.Text)
+            if (start && currentStage == 6 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label16.Text != "File path not found" && player.URL != label16.Text || start && currentRanked == 6 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label16.Text)
             {
                 WmpPlay(label16.Text, Convert.ToInt32(numericUpDown7.Value));
 
             }
-            if (start && currentStage == 7 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label18.Text != "File path not found" || start && currentRanked == 7 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label18.Text)
+            if (start && currentStage == 7 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label18.Text != "File path not found" && player.URL != label18.Text || start && currentRanked == 7 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label18.Text)
             {
                 WmpPlay(label18.Text, Convert.ToInt32(numericUpDown8.Value));
 
             }
-            if (start && currentStage == 8 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label20.Text != "File path not found" || start && currentRanked == 8 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label20.Text)
+            if (start && currentStage == 8 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label20.Text != "File path not found" && player.URL != label20.Text || start && currentRanked == 8 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label20.Text)
             {
                 WmpPlay(label20.Text, Convert.ToInt32(numericUpDown9.Value));
             }
-            if (start && currentStage == 9 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label22.Text != "File path not found" || start && currentRanked == 9 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label22.Text)
+            if (start && currentStage == 9 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label22.Text != "File path not found" && player.URL != label22.Text || start && currentRanked == 9 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label22.Text)
             {
                 WmpPlay(label22.Text, Convert.ToInt32(numericUpDown10.Value));
 
             }
-            if (start && currentStage == 30 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label24.Text != "File path not found" || start && currentRanked == 30 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label24.Text)
+            if (start && currentStage == 30 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label24.Text != "File path not found" && player.URL != label24.Text || start && currentRanked == 30 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label24.Text)
             {
                 WmpPlay(label24.Text, Convert.ToInt32(numericUpDown11.Value));
             }
-            if (start && currentStage == 31 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label26.Text != "File path not found" || start && currentRanked == 31 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label26.Text)
+            if (start && currentStage == 31 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label26.Text != "File path not found" && player.URL != label26.Text || start && currentRanked == 31 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label26.Text)
             {
                 WmpPlay(label26.Text, Convert.ToInt32(numericUpDown12.Value));
 
             }
-            if (start && currentStage == 32 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label28.Text != "File path not found" || start && currentRanked == 32 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label28.Text)
+            if (start && currentStage == 32 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label28.Text != "File path not found" && player.URL != label28.Text || start && currentRanked == 32 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label28.Text)
             {
                 WmpPlay(label28.Text, Convert.ToInt32(numericUpDown13.Value));
 
             }
-            if (start && currentStage == 33 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label54.Text != "File path not found" || start && currentRanked == 33 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label54.Text)
+            if (start && currentStage == 33 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label54.Text != "File path not found" && player.URL != label54.Text || start && currentRanked == 33 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label54.Text)
             {
                 WmpPlay(label54.Text, Convert.ToInt32(numericUpDown26.Value));
 
             }
-            if (start && currentStage == 35 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label52.Text != "File path not found" || start && currentRanked == 35 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label52.Text)
+            if (start && currentStage == 35 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label52.Text != "File path not found" && player.URL != label52.Text || start && currentRanked == 35 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label52.Text)
             {
                 WmpPlay(label52.Text, Convert.ToInt32(numericUpDown25.Value));
 
             }
-            if (start && currentStage == 36 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label50.Text != "File path not found" || start && currentRanked == 36 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label50.Text)
+            if (start && currentStage == 36 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label50.Text != "File path not found" && player.URL != label50.Text || start && currentRanked == 36 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label50.Text)
             {
                 WmpPlay(label50.Text, Convert.ToInt32(numericUpDown24.Value));
 
             }
-            if (start && currentStage == 37 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label48.Text != "File path not found" || start && currentRanked == 37 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label48.Text)
+            if (start && currentStage == 37 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label48.Text != "File path not found" && player.URL != label48.Text || start && currentRanked == 37 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label48.Text)
             {
                 WmpPlay(label48.Text, Convert.ToInt32(numericUpDown23.Value));
 
             }
-            if (start && currentStage == 39 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label46.Text != "File path not found" || start && currentRanked == 39 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label46.Text)
+            if (start && currentStage == 39 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label46.Text != "File path not found" && player.URL != label48.Text || start && currentRanked == 39 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label46.Text)
             {
                 WmpPlay(label46.Text, Convert.ToInt32(numericUpDown22.Value));
 
             }
-            if (start && currentStage == 40 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label44.Text != "File path not found" || start && currentRanked == 40 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label44.Text)
+            if (start && currentStage == 40 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label44.Text != "File path not found" && player.URL != label46.Text || start && currentRanked == 40 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label44.Text)
             {
                 WmpPlay(label44.Text, Convert.ToInt32(numericUpDown21.Value));
 
             }
-            if (start && currentStage == 41 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label42.Text != "File path not found" || start && currentRanked == 41 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label42.Text)
+            if (start && currentStage == 41 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label42.Text != "File path not found" && player.URL != label42.Text || start && currentRanked == 41 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label42.Text)
             {
                 WmpPlay(label42.Text, Convert.ToInt32(numericUpDown20.Value));
 
             }
-            if (start && currentStage == 51 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label40.Text != "File path not found" || start && currentRanked == 51 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label40.Text)
+            if (start && currentStage == 51 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label40.Text != "File path not found" && player.URL != label40.Text || start && currentRanked == 51 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label40.Text)
             {
                 WmpPlay(label40.Text, Convert.ToInt32(numericUpDown19.Value));
 
             }
-            if (start && currentStage == 52 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label38.Text != "File path not found" || start && currentRanked == 52 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label38.Text)
+            if (start && currentStage == 52 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label38.Text != "File path not found" && player.URL != label38.Text || start && currentRanked == 52 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label38.Text)
             {
                 WmpPlay(label38.Text, Convert.ToInt32(numericUpDown18.Value));
 
             }
-            if (start && currentStage == 53 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label36.Text != "File path not found" || start && currentRanked == 53 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label36.Text)
+            if (start && currentStage == 53 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label36.Text != "File path not found" && player.URL != label36.Text || start && currentRanked == 53 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label36.Text)
             {
                 WmpPlay(label36.Text, Convert.ToInt32(numericUpDown17.Value));
 
             }
-            if (start && currentStage == 54 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label34.Text != "File path not found" || start && currentRanked == 54 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label34.Text)
+            if (start && currentStage == 54 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label34.Text != "File path not found" && player.URL != label34.Text || start && currentRanked == 54 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label34.Text)
             {
                 WmpPlay(label34.Text, Convert.ToInt32(numericUpDown16.Value));
 
             }
-            if (start && currentStage == 55 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label32.Text != "File path not found" || start && currentRanked == 55 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label32.Text)
+            if (start && currentStage == 55 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label32.Text != "File path not found" && player.URL != label32.Text || start && currentRanked == 55 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label32.Text)
             {
                 WmpPlay(label32.Text, Convert.ToInt32(numericUpDown15.Value));
             }
-            if (start && currentStage == 56 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label30.Text != "File path not found" || start && currentRanked == 56 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label30.Text)
+            if (start && currentStage == 56 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label30.Text != "File path not found" && player.URL != label30.Text || start && currentRanked == 56 && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label30.Text)
             {
                 WmpPlay(label30.Text, Convert.ToInt32(numericUpDown14.Value));
             }
-            if (start && currentStage == 42 && currentStage == currentRanked && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label56.Text != "File path not found" || start && currentRanked == 42 && player.playState == WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label56.Text)
+            if (start && currentStage == 42 && currentStage == currentRanked && player.playState != WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && label56.Text != "File path not found" && player.URL != label56.Text || start && currentRanked == 42 && player.playState == WMPLib.WMPPlayState.wmppsPlaying && chara != 0 && inMatch && player.URL != label56.Text)
             {
                 WmpPlay(label56.Text, Convert.ToInt32(numericUpDown27.Value));
 
@@ -369,6 +371,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if(button3.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button3.Text = "Preview";
                 pv = false;
             }
@@ -399,6 +403,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button5.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button5.Text = "Preview";
                 pv = false;
             }
@@ -440,6 +446,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button7.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button7.Text = "Preview";
                 pv = false;
             }
@@ -467,6 +475,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button9.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button9.Text = "Preview";
                 pv = false;
             }
@@ -504,6 +514,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button11.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button11.Text = "Preview";
                 pv = false;
             }
@@ -534,6 +546,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button13.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button13.Text = "Preview";
                 pv = false;
             }
@@ -575,6 +589,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button15.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button15.Text = "Preview";
                 pv = false;
             }
@@ -609,6 +625,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button17.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button17.Text = "Preview";
                 pv = false;
             }
@@ -643,6 +661,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button19.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button19.Text = "Preview";
                 pv = false;
             }
@@ -669,6 +689,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button21.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button21.Text = "Preview";
                 pv = false;
             }
@@ -714,6 +736,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button23.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button23.Text = "Preview";
                 pv = false;
             }
@@ -747,6 +771,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button25.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button25.Text = "Preview";
                 pv = false;
             }
@@ -781,6 +807,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button51.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button51.Text = "Preview";
                 pv = false;
             }
@@ -820,6 +848,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button49.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button49.Text = "Preview";
                 pv = false;
             }
@@ -850,6 +880,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button47.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button47.Text = "Preview";
                 pv = false;
             }
@@ -885,6 +917,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button45.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button45.Text = "Preview";
                 pv = false;
             }
@@ -920,6 +954,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button43.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button43.Text = "Preview";
                 pv = false;
             }
@@ -957,6 +993,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button41.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button41.Text = "Preview";
                 pv = false;
             }
@@ -992,6 +1030,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if(button39.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button39.Text = "Preview";
                 pv = false;
             }
@@ -1028,6 +1068,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button37.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button37.Text = "Preview";
                 pv = false;
             }
@@ -1064,6 +1106,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button35.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button35.Text = "Preview";
                 pv = false;
             }
@@ -1099,6 +1143,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button33.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button33.Text = "Preview";
                 pv = false;
             }
@@ -1135,6 +1181,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button31.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button31.Text = "Preview";
                 pv = false;
             }
@@ -1170,6 +1218,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button29.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button29.Text = "Preview";
                 pv = false;
             }
@@ -1206,6 +1256,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button27.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button27.Text = "Preview";
                 pv = false;
             }
@@ -1242,6 +1294,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if (button53.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button53.Text = "Preview";
                 pv = false;
             }
@@ -1278,6 +1332,8 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             if(button55.Text == "Stop")
             {
                 player.controls.stop();
+                player.URL = "";
+
                 button55.Text = "Preview";
                 pv = false;
             }
@@ -1312,6 +1368,9 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
         {
             if (button57.Text == "Start Jukebox!")
             {
+                player.controls.stop();
+                player.URL = "";
+                mMusic = false;
                 start = true;
                 button57.Text = "Stop Jukebox";
             }
@@ -1319,7 +1378,12 @@ namespace Tekken_Jukebox_Bloodline_Resurrection
             {
                 start = false;
                 player.controls.stop();
+                player.URL = "";
+                mMusic = false;
                 button57.Text = "Start Jukebox!";
+
+
+
             }
         }
 

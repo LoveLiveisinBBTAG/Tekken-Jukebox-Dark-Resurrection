@@ -48,10 +48,14 @@ Program to play music while a certain stage is loaded in Tekken 7 by hooking int
 
 # Changelog
 
-* Fixed an error where music would not play in ranked matches.
+* Fixed an error where music would not play in local gamemodes after the last version broke them.
+* Fixed an error where pressing the preview button before starting the jukebox would make that file not play when its stage was selected
 
 # Currently known bugs
 
 * Not having a main menu song may cause no other songs to play. I reccomend having a main menu song and just turning the volume to 0 if you don't want to hear it. 
-* Returning to the main menu after an online match causes the main menu music to not play. I currently don't have a fix for this. Changing to another stage causes the music for that stage to still play.
+* Music only starts after the intro cinematics. 
+* Returning to the main menu immediately after an online match causes the main menu music to not play. I currently don't have a fix for this. Changing to another stage causes the music for that stage to still play, and returning to the warmup stage before the main menu causes the music to still play.
 * Starting the jukebox before the actual game can sometimes cause the program to hang.
+* Lobbies are untested
+* Preview button causes some strangeness when the jukebox is enabled. Don't press them when it's enabled, I'll disable them in the next update. 
