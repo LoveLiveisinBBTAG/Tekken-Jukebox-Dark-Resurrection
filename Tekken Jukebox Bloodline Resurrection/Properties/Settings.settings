@@ -170,5 +170,32 @@
     <Setting Name="Label1" Type="System.String" Scope="User">
       <Value Profile="(Default)">File path not found</Value>
     </Setting>
+    <Setting Name="numValue" Type="System.Collections.Generic.List&lt;System.Windows.Forms.NumericUpDown&gt;" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="files" Type="System.String[]" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;String1&lt;/string&gt;
+  &lt;string&gt;String2&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="firstsave" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="volumes" Type="System.Int32[]" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;int&gt;1&lt;/int&gt;
+  &lt;int&gt;2&lt;/int&gt;
+  &lt;int&gt;3&lt;/int&gt;
+&lt;/ArrayOfInt&gt;</Value>
+    </Setting>
+    <Setting Name="times" Type="System.Single[]" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="checkboxes" Type="System.Boolean[]" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

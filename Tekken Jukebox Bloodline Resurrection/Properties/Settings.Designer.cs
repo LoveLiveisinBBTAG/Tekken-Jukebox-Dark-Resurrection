@@ -694,5 +694,78 @@ namespace Tekken_Jukebox_Bloodline_Resurrection.Properties {
                 this["Label1"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Collections.Generic.List<System.Windows.Forms.NumericUpDown> numValue {
+            get {
+                return ((global::System.Collections.Generic.List<System.Windows.Forms.NumericUpDown>)(this["numValue"]));
+            }
+            set {
+                this["numValue"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3." +
+            "org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <s" +
+            "tring>String1</string>\r\n  <string>String2</string>\r\n</ArrayOfString>")]
+        public string[] files {
+            get {
+                return ((string[])(this["files"]));
+            }
+            set {
+                this["files"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool firstsave {
+            get {
+                return ((bool)(this["firstsave"]));
+            }
+            set {
+                this["firstsave"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfInt xmlns:xsi=\"http://www.w3.org" +
+            "/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <int>" +
+            "1</int>\r\n  <int>2</int>\r\n  <int>3</int>\r\n</ArrayOfInt>")]
+        public int[] volumes {
+            get {
+                return ((int[])(this["volumes"]));
+            }
+            set {
+                this["volumes"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public float[] times {
+            get {
+                return ((float[])(this["times"]));
+            }
+            set {
+                this["times"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public bool[] checkboxes {
+            get {
+                return ((bool[])(this["checkboxes"]));
+            }
+            set {
+                this["checkboxes"] = value;
+            }
+        }
     }
 }
